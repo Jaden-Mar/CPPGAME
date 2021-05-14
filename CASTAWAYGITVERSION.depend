@@ -1,0 +1,17 @@
+# depslib dependency file v1.0
+1621010805 source:c:\users\thinky2jimma\documents\github\castawaygitversion\gracz.cpp
+	"Gracz.h"
+
+1621010837 c:\users\thinky2jimma\documents\github\castawaygitversion\gracz.h
+
+1621012184 source:c:\users\thinky2jimma\documents\github\castawaygitversion\main.cpp
+	<iostream>
+	<time.h>
+	<windows.h>
+	<limits>
+	<stdlib.h>
+	"funkcje.h"
+
+1621011227 c:\users\thinky2jimma\documents\github\castawaygitversion\funkcje.h
+	"Gracz.h"
+
