@@ -36,6 +36,15 @@ void ekwipunek(Gracz* gracz)
 
 
 }
+void TWORZENIE()
+{
+    clrscr();
+    cout<<"==============================="<<endl;
+    cout<<"Crafting"<<endl;
+    cout<<"==============================="<<endl;
+
+}
+
 
 void wybor(Gracz *gracz)
 {
@@ -61,6 +70,7 @@ void wybor(Gracz *gracz)
        ekwipunek(gracz);
         break;
     case 2:
+     TWORZENIE();
        break;
     case 3:
         break;

@@ -15,3 +15,11 @@
 1621011227 c:\users\thinky2jimma\documents\github\castawaygitversion\funkcje.h
 	"Gracz.h"
 
+1621064340 source:c:\users\thinky2jimma\documents\github\castawaygitversion\funkcje.cpp
+	<iostream>
+	<time.h>
+	<windows.h>
+	<limits>
+	<stdlib.h>
+	"funkcje.h"
+
