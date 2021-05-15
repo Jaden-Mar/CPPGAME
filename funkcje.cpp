@@ -13,6 +13,28 @@ void clrscr(void)
     system("CLS");
 }
 
+void ekwipunekCRAFTING(Gracz* gracz)
+{
+	 for (int i = 0; i < 10; i++)
+        {
+            switch (gracz->ekwipunek[i])
+            {
+
+            case przedmioty::kilof:
+                cout << "kilof "<<endl;
+                break;
+            case przedmioty::patyk:
+                cout << "patyk "<<endl;
+                break;
+            case przedmioty::kamien:
+                cout << "kamien "<<endl;
+                break;
+            }
+        }
+
+
+}
+
 void ekwipunek(Gracz* gracz)
 {
 	 for (int i = 0; i < 10; i++)
@@ -36,13 +58,16 @@ void ekwipunek(Gracz* gracz)
 
 
 }
-void TWORZENIE()
+void TWORZENIE(Gracz *gracz)
 {
+
     clrscr();
     cout<<"==============================="<<endl;
     cout<<"Crafting"<<endl;
     cout<<"==============================="<<endl;
-
+       cout<<"Posiadasz:"<<endl;
+    cout<<"==============================="<<endl;
+    ekwipunekCRAFTING(gracz);
 }
 
 
@@ -70,7 +95,7 @@ void wybor(Gracz *gracz)
        ekwipunek(gracz);
         break;
     case 2:
-     TWORZENIE();
+     TWORZENIE(gracz);
        break;
     case 3:
         break;
